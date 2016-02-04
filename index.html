@@ -81,15 +81,84 @@
 			<section>
 				<br>
 				<br>
+				<b>Git Tags</b>
 				<br>
-				Git Tags
 				<br>
 				Especificar momentos de tu repositorio importantes.
 				<br>
-				Una nueva versión del proyecto, un feature fuerte bien ejecutado, etc.
+				<br>
+				Puede ser una nueva versión del proyecto, un feature fuerte, etc.
+			</section>
+			<section>
+				<br>
+				<br>
+				<b>Git Tags</b>
+				<br>
+				<br>
+				Existen 2 formas de crear tags.
+				<br>
+				<br>
+				- Annotated Tags
+				<br>
+				- Lightweight Tags
 			</section>
 
+			<section>
+				<br>
+				<br>
+				<b>Git Tags</b>
+				<br>
+				<br>
+				<pre><code>
+					git tag -a [versión] -m "[mensaje]"
+				</code>
+				Annotated Tag. Agregas la versión y un mensaje para agregar detalles.
+				</pre>
+				<br>
+				<br>
+			</section>
 
+			<section>
+				<br>
+				<br>
+				<b>Git Tags</b>
+				<br>
+				<br>
+				<pre><code>
+					git tag [versión]
+				</code>
+				Lightweight Tag. Agregas la versión y listo. No hay mensaje.
+				</pre>
+				<br>
+				<br>
+			</section>
+
+			<section>
+				<br>
+				<br>
+				<b>Lista de Tags</b>
+				<br>
+				<br>
+				<pre><code>
+					git tag
+				</code>
+				Muestra todos los tags creados.
+				</pre>
+				<pre><code>
+					git tag -l "[versión]"
+				</code>
+				Busca la versión que le solicites.
+				</pre>
+
+				<br>
+				<br>
+			</section>
+
+<section>
+	<br>
+	<br>
+	Cuando realizas un git tag, se ejecuta en el commit en el que se encuentra HEAD.
+</section>
 
 
 
